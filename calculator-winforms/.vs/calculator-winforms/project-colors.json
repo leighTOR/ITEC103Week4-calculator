@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d284f8d6-798d-4618-bec4-5cc04f8af7af": {
+      "ProjectGuid": "d284f8d6-798d-4618-bec4-5cc04f8af7af",
+      "DisplayName": "calculator-winforms",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

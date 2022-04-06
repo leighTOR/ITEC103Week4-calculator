@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.numOne = new System.Windows.Forms.Button();
             this.numTwo = new System.Windows.Forms.Button();
@@ -50,21 +51,24 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(17, 30);
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(14, 22);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(346, 71);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(346, 108);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // numOne
             // 
-            this.numOne.BackColor = System.Drawing.Color.Black;
+            this.numOne.BackColor = System.Drawing.Color.White;
             this.numOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numOne.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numOne.Location = new System.Drawing.Point(17, 344);
+            this.numOne.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numOne.ForeColor = System.Drawing.Color.Black;
+            this.numOne.Location = new System.Drawing.Point(14, 370);
             this.numOne.Name = "numOne";
             this.numOne.Size = new System.Drawing.Size(82, 71);
             this.numOne.TabIndex = 1;
@@ -73,11 +77,11 @@
             // 
             // numTwo
             // 
-            this.numTwo.BackColor = System.Drawing.Color.Black;
+            this.numTwo.BackColor = System.Drawing.Color.White;
             this.numTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numTwo.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numTwo.Location = new System.Drawing.Point(105, 344);
+            this.numTwo.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numTwo.ForeColor = System.Drawing.Color.Black;
+            this.numTwo.Location = new System.Drawing.Point(102, 370);
             this.numTwo.Name = "numTwo";
             this.numTwo.Size = new System.Drawing.Size(82, 71);
             this.numTwo.TabIndex = 1;
@@ -86,11 +90,11 @@
             // 
             // numThree
             // 
-            this.numThree.BackColor = System.Drawing.Color.Black;
+            this.numThree.BackColor = System.Drawing.Color.White;
             this.numThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numThree.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numThree.Location = new System.Drawing.Point(193, 344);
+            this.numThree.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numThree.ForeColor = System.Drawing.Color.Black;
+            this.numThree.Location = new System.Drawing.Point(190, 370);
             this.numThree.Name = "numThree";
             this.numThree.Size = new System.Drawing.Size(82, 71);
             this.numThree.TabIndex = 1;
@@ -99,11 +103,11 @@
             // 
             // numFour
             // 
-            this.numFour.BackColor = System.Drawing.Color.Black;
+            this.numFour.BackColor = System.Drawing.Color.White;
             this.numFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numFour.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numFour.Location = new System.Drawing.Point(17, 267);
+            this.numFour.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numFour.ForeColor = System.Drawing.Color.Black;
+            this.numFour.Location = new System.Drawing.Point(14, 293);
             this.numFour.Name = "numFour";
             this.numFour.Size = new System.Drawing.Size(82, 71);
             this.numFour.TabIndex = 1;
@@ -112,11 +116,11 @@
             // 
             // numFIve
             // 
-            this.numFIve.BackColor = System.Drawing.Color.Black;
+            this.numFIve.BackColor = System.Drawing.Color.White;
             this.numFIve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numFIve.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numFIve.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numFIve.Location = new System.Drawing.Point(105, 267);
+            this.numFIve.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numFIve.ForeColor = System.Drawing.Color.Black;
+            this.numFIve.Location = new System.Drawing.Point(102, 293);
             this.numFIve.Name = "numFIve";
             this.numFIve.Size = new System.Drawing.Size(82, 71);
             this.numFIve.TabIndex = 1;
@@ -125,11 +129,11 @@
             // 
             // numSix
             // 
-            this.numSix.BackColor = System.Drawing.Color.Black;
+            this.numSix.BackColor = System.Drawing.Color.White;
             this.numSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numSix.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numSix.Location = new System.Drawing.Point(193, 267);
+            this.numSix.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numSix.ForeColor = System.Drawing.Color.Black;
+            this.numSix.Location = new System.Drawing.Point(190, 293);
             this.numSix.Name = "numSix";
             this.numSix.Size = new System.Drawing.Size(82, 71);
             this.numSix.TabIndex = 1;
@@ -138,11 +142,11 @@
             // 
             // numSeven
             // 
-            this.numSeven.BackColor = System.Drawing.Color.Black;
+            this.numSeven.BackColor = System.Drawing.Color.White;
             this.numSeven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numSeven.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numSeven.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numSeven.Location = new System.Drawing.Point(17, 190);
+            this.numSeven.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numSeven.ForeColor = System.Drawing.Color.Black;
+            this.numSeven.Location = new System.Drawing.Point(14, 216);
             this.numSeven.Name = "numSeven";
             this.numSeven.Size = new System.Drawing.Size(82, 71);
             this.numSeven.TabIndex = 1;
@@ -151,11 +155,11 @@
             // 
             // numEighth
             // 
-            this.numEighth.BackColor = System.Drawing.Color.Black;
+            this.numEighth.BackColor = System.Drawing.Color.White;
             this.numEighth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numEighth.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numEighth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numEighth.Location = new System.Drawing.Point(105, 190);
+            this.numEighth.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numEighth.ForeColor = System.Drawing.Color.Black;
+            this.numEighth.Location = new System.Drawing.Point(102, 216);
             this.numEighth.Name = "numEighth";
             this.numEighth.Size = new System.Drawing.Size(82, 71);
             this.numEighth.TabIndex = 1;
@@ -164,11 +168,11 @@
             // 
             // numNine
             // 
-            this.numNine.BackColor = System.Drawing.Color.Black;
+            this.numNine.BackColor = System.Drawing.Color.White;
             this.numNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numNine.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numNine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numNine.Location = new System.Drawing.Point(193, 190);
+            this.numNine.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numNine.ForeColor = System.Drawing.Color.Black;
+            this.numNine.Location = new System.Drawing.Point(190, 216);
             this.numNine.Name = "numNine";
             this.numNine.Size = new System.Drawing.Size(82, 71);
             this.numNine.TabIndex = 1;
@@ -177,11 +181,13 @@
             // 
             // btnAC
             // 
-            this.btnAC.BackColor = System.Drawing.Color.Blue;
+            this.btnAC.BackColor = System.Drawing.Color.Black;
+            this.btnAC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnAC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnAC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAC.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAC.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAC.ForeColor = System.Drawing.Color.White;
-            this.btnAC.Location = new System.Drawing.Point(17, 113);
+            this.btnAC.Location = new System.Drawing.Point(14, 139);
             this.btnAC.Name = "btnAC";
             this.btnAC.Size = new System.Drawing.Size(82, 71);
             this.btnAC.TabIndex = 1;
@@ -190,11 +196,13 @@
             // 
             // btnDivide
             // 
-            this.btnDivide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnDivide.BackColor = System.Drawing.Color.Black;
+            this.btnDivide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnDivide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDivide.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDivide.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivide.ForeColor = System.Drawing.Color.White;
-            this.btnDivide.Location = new System.Drawing.Point(105, 113);
+            this.btnDivide.Location = new System.Drawing.Point(102, 139);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(82, 71);
             this.btnDivide.TabIndex = 1;
@@ -203,11 +211,13 @@
             // 
             // btnMultiply
             // 
-            this.btnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnMultiply.BackColor = System.Drawing.Color.Black;
+            this.btnMultiply.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMultiply.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiply.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiply.ForeColor = System.Drawing.Color.White;
-            this.btnMultiply.Location = new System.Drawing.Point(193, 113);
+            this.btnMultiply.Location = new System.Drawing.Point(190, 139);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(82, 71);
             this.btnMultiply.TabIndex = 1;
@@ -216,11 +226,13 @@
             // 
             // btnSubtract
             // 
-            this.btnSubtract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnSubtract.BackColor = System.Drawing.Color.Black;
+            this.btnSubtract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnSubtract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnSubtract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubtract.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubtract.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtract.ForeColor = System.Drawing.Color.White;
-            this.btnSubtract.Location = new System.Drawing.Point(281, 113);
+            this.btnSubtract.Location = new System.Drawing.Point(278, 139);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(82, 71);
             this.btnSubtract.TabIndex = 1;
@@ -229,11 +241,13 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnAdd.BackColor = System.Drawing.Color.Black;
+            this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(281, 190);
+            this.btnAdd.Location = new System.Drawing.Point(278, 216);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(82, 148);
             this.btnAdd.TabIndex = 1;
@@ -242,11 +256,11 @@
             // 
             // numZero
             // 
-            this.numZero.BackColor = System.Drawing.Color.Black;
+            this.numZero.BackColor = System.Drawing.Color.White;
             this.numZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numZero.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numZero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.numZero.Location = new System.Drawing.Point(17, 421);
+            this.numZero.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numZero.ForeColor = System.Drawing.Color.Black;
+            this.numZero.Location = new System.Drawing.Point(14, 447);
             this.numZero.Name = "numZero";
             this.numZero.Size = new System.Drawing.Size(170, 71);
             this.numZero.TabIndex = 1;
@@ -256,11 +270,11 @@
             // 
             // btnPeriod
             // 
-            this.btnPeriod.BackColor = System.Drawing.Color.Blue;
+            this.btnPeriod.BackColor = System.Drawing.Color.White;
             this.btnPeriod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPeriod.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPeriod.ForeColor = System.Drawing.Color.White;
-            this.btnPeriod.Location = new System.Drawing.Point(193, 421);
+            this.btnPeriod.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPeriod.ForeColor = System.Drawing.Color.Black;
+            this.btnPeriod.Location = new System.Drawing.Point(190, 447);
             this.btnPeriod.Name = "btnPeriod";
             this.btnPeriod.Size = new System.Drawing.Size(82, 71);
             this.btnPeriod.TabIndex = 1;
@@ -269,11 +283,13 @@
             // 
             // btnEquals
             // 
-            this.btnEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnEquals.BackColor = System.Drawing.Color.Black;
+            this.btnEquals.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnEquals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEquals.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEquals.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEquals.ForeColor = System.Drawing.Color.White;
-            this.btnEquals.Location = new System.Drawing.Point(281, 344);
+            this.btnEquals.Location = new System.Drawing.Point(278, 370);
             this.btnEquals.Name = "btnEquals";
             this.btnEquals.Size = new System.Drawing.Size(82, 148);
             this.btnEquals.TabIndex = 1;
@@ -284,8 +300,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(379, 507);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(377, 538);
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSubtract);
@@ -305,10 +321,13 @@
             this.Controls.Add(this.numOne);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Calculator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Simple Calculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
