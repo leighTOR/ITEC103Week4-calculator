@@ -12,9 +12,7 @@ namespace calculator_winforms
 {
     public partial class Calculator : Form
     {
-        Double resultValue = 0;
-        String operationPerformed = "";
-        bool isOperationPerformed = false;
+        private string lastOperator;
 
         public Calculator()
         {
@@ -28,24 +26,15 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnNumber_click(object sender, EventArgs e)
         {
-            if ((txtDisplay.Text == "0") || (isOperationPerformed))
-            {
-                txtDisplay.Clear();
-            }
-
-            isOperationPerformed = false;
+            
             Button button = (Button)sender;
             if (button.Text == ".")
             {
-                if (!txtDisplay.Text.Contains("."))
-                {
-                    txtDisplay.Text = txtDisplay.Text + button.Text;
-                }
+                if (!lblDisplay.Text.Contains("."))
+                    lblDisplay.Text = lblDisplay.Text + button.Text;
             }
             else
-            {
-                txtDisplay.Text = txtDisplay.Text + button.Text;
-            }
+                lblDisplay.Text = lblDisplay.Text + button.Text;
         }
 
         /// <summary>
@@ -57,20 +46,15 @@ namespace calculator_winforms
         {
             Button button = (Button)sender;
 
-            if (resultValue != 0)
-            {
-                btnEquals.PerformClick();
-                operationPerformed = button.Text;
-                lblDisplay.Text = resultValue + " " + operationPerformed;
-                isOperationPerformed = true;
-            }
-            else
-            {
-                operationPerformed = button.Text;
-                resultValue = Double.Parse(txtDisplay.Text);
-                lblDisplay.Text = resultValue + " " + operationPerformed;
-                isOperationPerformed = true;
-            }
+            if (lblDisplay.Text == "")
+                return;
+
+            lblOperator.ResetText();
+            lblOperator.Text = button.Text;
+            lblFirstNum.Text = lblDisplay.Text;
+            lastOperator = button.Text;
+
+            lblDisplay.ResetText();
         }
 
         /// <summary>
@@ -80,25 +64,39 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnEquals_Click(object sender, EventArgs e)
         {
-            switch (operationPerformed)
+            double firstNum, secondNum;
+            double result;
+
+            if (lblDisplay.Text == "")
+                return;
+
+            double.TryParse(lblFirstNum.Text, out firstNum);
+            double.TryParse(lblDisplay.Text, out secondNum);
+
+            switch (lastOperator)
             {
                 case "+":
-                    txtDisplay.Text = (resultValue + Double.Parse(txtDisplay.Text)).ToString();
+                    result = firstNum + secondNum;
+                    lblSecondNum.Text = secondNum.ToString();
+                    lblDisplay.Text = result.ToString();
                     break;
                 case "-":
-                    txtDisplay.Text = (resultValue - Double.Parse(txtDisplay.Text)).ToString();
+                    result = firstNum - secondNum;
+                    lblSecondNum.Text = secondNum.ToString();
+                    lblDisplay.Text = result.ToString();
                     break;
                 case "*":
-                    txtDisplay.Text = (resultValue * Double.Parse(txtDisplay.Text)).ToString();
+                    result = firstNum * secondNum;
+                    lblSecondNum.Text = secondNum.ToString();
+                    lblDisplay.Text = result.ToString();
                     break;
                 case "/":
-                    txtDisplay.Text = (resultValue / Double.Parse(txtDisplay.Text)).ToString();
-                    break;
-                default:
+                    result = firstNum / secondNum;
+                    lblSecondNum.Text = secondNum.ToString();
+                    lblDisplay.Text = result.ToString();
                     break;
             }
-            resultValue = Double.Parse(txtDisplay.Text);
-            lblDisplay.Text = "";
+            lblEquals.Text = "=";
         }
 
         /// <summary>
@@ -108,8 +106,11 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnAC_Click(object sender, EventArgs e)
         {
-            txtDisplay.Text = "0"; // returning the textbox to 0
-            lblDisplay.Text = ""; // returnning the label display to null
+            lblDisplay.ResetText(); // clearing the display label
+            lblFirstNum.ResetText(); // clearing the first number label
+            lblOperator.ResetText(); // clearing the label operator
+            lblSecondNum.ResetText(); // clearing the second number label
+            lblEquals.ResetText(); // clearing the equals label
         }
     }
 }
