@@ -26,8 +26,8 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnNumber_click(object sender, EventArgs e)
         {
-            
             Button button = (Button)sender;
+
             if (button.Text == ".")
             {
                 if (!lblDisplay.Text.Contains("."))
@@ -64,7 +64,7 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnEquals_Click(object sender, EventArgs e)
         {
-            double firstNum, secondNum;
+            double firstNum, secondNum; 
             double result;
 
             if (lblDisplay.Text == "")
@@ -106,11 +106,11 @@ namespace calculator_winforms
         /// <param name="e"></param>
         private void btnAC_Click(object sender, EventArgs e)
         {
-            lblDisplay.ResetText(); // clearing the display label
-            lblFirstNum.ResetText(); // clearing the first number label
-            lblOperator.ResetText(); // clearing the label operator
-            lblSecondNum.ResetText(); // clearing the second number label
-            lblEquals.ResetText(); // clearing the equals label
+            lblDisplay.ResetText();
+            lblFirstNum.ResetText();
+            lblOperator.ResetText();
+            lblSecondNum.ResetText();
+            lblEquals.ResetText();
         }
     }
 }

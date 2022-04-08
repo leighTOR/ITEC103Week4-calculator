@@ -56,6 +56,8 @@
             // num1
             // 
             this.num1.BackColor = System.Drawing.Color.Black;
+            this.num1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num1.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num1.ForeColor = System.Drawing.Color.White;
@@ -70,6 +72,8 @@
             // num2
             // 
             this.num2.BackColor = System.Drawing.Color.Black;
+            this.num2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num2.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num2.ForeColor = System.Drawing.Color.White;
@@ -84,6 +88,8 @@
             // num3
             // 
             this.num3.BackColor = System.Drawing.Color.Black;
+            this.num3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num3.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num3.ForeColor = System.Drawing.Color.White;
@@ -98,6 +104,8 @@
             // num4
             // 
             this.num4.BackColor = System.Drawing.Color.Black;
+            this.num4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num4.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num4.ForeColor = System.Drawing.Color.White;
@@ -112,6 +120,8 @@
             // num5
             // 
             this.num5.BackColor = System.Drawing.Color.Black;
+            this.num5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num5.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num5.ForeColor = System.Drawing.Color.White;
@@ -126,6 +136,8 @@
             // num6
             // 
             this.num6.BackColor = System.Drawing.Color.Black;
+            this.num6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num6.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num6.ForeColor = System.Drawing.Color.White;
@@ -140,6 +152,8 @@
             // num7
             // 
             this.num7.BackColor = System.Drawing.Color.Black;
+            this.num7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num7.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num7.ForeColor = System.Drawing.Color.White;
@@ -154,6 +168,8 @@
             // num8
             // 
             this.num8.BackColor = System.Drawing.Color.Black;
+            this.num8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num8.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num8.ForeColor = System.Drawing.Color.White;
@@ -168,6 +184,8 @@
             // num9
             // 
             this.num9.BackColor = System.Drawing.Color.Black;
+            this.num9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num9.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num9.ForeColor = System.Drawing.Color.White;
@@ -262,6 +280,8 @@
             // num0
             // 
             this.num0.BackColor = System.Drawing.Color.Black;
+            this.num0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.num0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.num0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.num0.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num0.ForeColor = System.Drawing.Color.White;
@@ -277,6 +297,8 @@
             // btnPoint
             // 
             this.btnPoint.BackColor = System.Drawing.Color.Black;
+            this.btnPoint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.btnPoint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.btnPoint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPoint.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPoint.ForeColor = System.Drawing.Color.White;
