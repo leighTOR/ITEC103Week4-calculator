@@ -42,7 +42,7 @@ namespace calculator_winforms
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void operator_click(object sender, EventArgs e)
+        private void btnOperator_click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
 
